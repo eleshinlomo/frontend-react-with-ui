@@ -12,7 +12,9 @@ const NavBar = () => {
             <li class='bg-black rounded-full px-6 text-center text-white hover:bg-blue-800 active:bg-white focus:bg-pink' ><a href="/">HOME</a></li>
             <li class='bg-black rounded-full px-6 text-center text-white hover:bg-blue-800 active:bg-white focus:bg-pink' ><a href="/lounge">LOUNGE</a></li>
             <li class='bg-black rounded-full px-6 text-center text-white hover:bg-blue-800 active:bg-white focus:bg-pink' ><a href="/tech">TECH USED</a></li>
-            <li class='bg-black rounded-full px-6 text-center text-white hover:bg-blue-800 active:bg-white focus:bg-pink' ><a href="#">GITHUB</a></li>
+            <li class='bg-black rounded-full px-6 text-center text-white hover:bg-blue-800 active:bg-white focus:bg-pink' ><a href="https://node-b46a.onrender.com/blogs">BACKEND PROJECT</a></li>
+            <li class='bg-black rounded-full px-6 text-center text-white hover:bg-blue-800 active:bg-white focus:bg-pink' ><a href="https://github.com/eleshinlomo/frontend-react-with-ui">GITHUB</a></li>
+            
             </ul>
 
             </div>
