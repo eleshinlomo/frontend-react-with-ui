@@ -1,6 +1,11 @@
+import {useRouter} from 'next/router'
 
 
 const NavBar = () => {
+
+  const router = useRouter()
+  const home = ()=>router.push('/')
+
   return (
     <nav> 
     
@@ -8,14 +13,14 @@ const NavBar = () => {
             
 
             <div class=" space-x-6 flex flex-col  mx-0 items-center justify-center bg-white">
-            <ul class='flex space-x-8'>
-            <li class='bg-black rounded-full px-6 text-center text-white hover:bg-blue-800 active:bg-white focus:bg-pink' ><a href="/">HOME</a></li>
-            <li class='bg-black rounded-full px-6 text-center text-white hover:bg-blue-800 active:bg-white focus:bg-pink' ><a href="/lounge">LOUNGE</a></li>
-            <li class='bg-black rounded-full px-6 text-center text-white hover:bg-blue-800 active:bg-white focus:bg-pink' ><a href="/tech">TECH USED</a></li>
-            <li class='bg-black rounded-full px-6 text-center text-white hover:bg-blue-800 active:bg-white focus:bg-pink' ><a href="https://node-b46a.onrender.com/blogs">BACKEND PROJECT</a></li>
-            <li class='bg-black rounded-full px-6 text-center text-white hover:bg-blue-800 active:bg-white focus:bg-pink' ><a href="https://github.com/eleshinlomo/frontend-react-with-ui">GITHUB</a></li>
+            <span class='flex space-x-8'>
+  
+            <button onClick={home} class="text-white bg-black rounded-full space-x-8 mx-8">HOME</button>
             
-            </ul>
+           
+           
+            
+            </span>
 
             </div>
 
