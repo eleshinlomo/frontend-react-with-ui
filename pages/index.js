@@ -32,33 +32,45 @@ export default function Home() {
         
       </Head>
 
-   
-    <div class='contianer relative flex-col  h-screen sm:w-screen md:w-screen lg:w-screen bg-gradient-to-r  from-black via-teal-500 to-black mx-0 px-12 hover:bg-pink-500'>
+  
+        
+        
+        {/* ROW */}
+        
+        <div class=' grid grid-cols-2 h-screen bg-gradient-to-r  from-black via-teal-500 to-black  hover:bg-pink-500'>
 
-    <div class='row flex'>
 
-<div class="col w-1/2 flex-col  text-green-300 font-bold text-xl mt-40 ">
 
-    <p class='text-2xl py-6 hover:text-blue-700'>Thank you for visiting my page...</p>
+        {/* COLUMN-1 */}
 
-    <p class='text-4xl py-6 hover:text-red-500'>I am a Fullstack React and Node JS Developer with UI skill</p>
+       <div className='columns-1 col-span-1  text-start  text-green-300 font-bold text-base mt-20 md:mt-52 lg:mt-52 space-y-3 ml-6 '>
 
-   <p class='text-6xl hover:text-pink-400'>I will now be taking you to my Lounge in 15 secs... </p>
-   </div>
+        <p class='text-lg hover:text-blue-700'>Thank you for visiting my page...</p>
 
-   <div class="col flex-col w-1/2  font-bold text-xl mt-40">
+<p class='text-lg md:text-2xl lg:text-3xl  hover:text-red-500'>I am a Fullstack React and Node JS Developer with UI skill</p>
 
-    <p class='text-center   mt-8 hover:bg-blue-600 text-white text-8xl '>{count}</p>
-    
-    
-    
-
-   </div>
-   </div>
-
-   
-
+<p class=' text-lg md:text-2xl lg:text-3xl hover:text-pink-400'>I will now be taking you to my Lounge in 15 secs... </p>
 </div>
-    </div>
+
+
+{/* COLUMN 2 */}
+
+<div class="columns-2 text-end font-bold  mt-52">
+
+    <p class='  hover:bg-blue-600 text-white text-8xl '>{count}</p>
+
+        </div>
+
+
+       </div> {/* ROW */}
+
+        </div> 
+
+       
+    
+
+
+
+    
   )
 }
