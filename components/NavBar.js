@@ -12,29 +12,20 @@ const NavBar = () => {
   
 
   return (
-    <nav> 
+    <nav class='grid grid-cols-1'> 
     
-    <nav class="container relative mx-auto p-6">
-            
+  <span className=' col-auto text-center py-8 space-x-4 items-center justify-center'>
 
-            <div class=" space-x-6 flex flex-col  mx-0 items-center justify-center bg-white">
-            <span class='flex space-x-8'>
-  
+
             <button onClick={home} class='bg-black rounded-full px-4 py-4 text-center text-white hover:bg-blue-800 active:bg-white focus:bg-pink'>HOME</button>
             <button onClick={lounge} class='bg-black rounded-full px-4 py-4 text-center text-white hover:bg-blue-800 active:bg-white focus:bg-pink'>LOUNGE</button>
             <button onClick={tech} class='bg-black rounded-full px-4 py-4 text-center text-white hover:bg-blue-800 active:bg-white focus:bg-pink'>ABOUT</button>
             <button onClick={nodejs} class='bg-black rounded-full px-4 py-4 text-center text-white hover:bg-blue-800 active:bg-white focus:bg-pink'>NODEJS</button>
             <button onClick={github} class='bg-black rounded-full px-4 py-4 text-center text-white hover:bg-blue-800 active:bg-white focus:bg-pink'>GITHUB</button>
             
-           
-           
-            
             </span>
-
-            </div>
-
-             
-        </nav>
+           
+           
 
     </nav>
   )
