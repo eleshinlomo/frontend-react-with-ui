@@ -37,25 +37,25 @@ export default function Home() {
         
         {/* ROW */}
         
-        <div class=' grid grid-cols-2 h-screen bg-gradient-to-r  from-black via-teal-500 to-black  hover:bg-pink-500'>
+        <div class=' grid grid-cols-2 h-screen bg-gradient-to-r  from-black via-teal-700 to-black  hover:bg-pink-500'>
 
 
 
         {/* COLUMN-1 */}
 
-       <div className='columns-1 col-span-1  text-start  text-green-300 font-bold text-base mt-20 md:mt-52 lg:mt-52 space-y-3 ml-6 '>
+       <div className='columns-1 col-span-1 md:col-span-1 lg:col-span-1 text-start md:text-end lg:text-end  text-green-300 font-bold text-base mt-32 md:mt-52 items-center lg:mt-52 space-y-3 ml-3 md:ml-6 lg:ml-6 '>
 
-        <p class='text-lg hover:text-blue-700'>Thank you for visiting my page...</p>
+        <p class=' hover:text-blue-700'>Thank you for visiting my page...</p>
 
-<p class='text-lg md:text-2xl lg:text-3xl  hover:text-red-500'>I am a Fullstack React and Node JS Developer with UI skill</p>
+<p class=' md:text-2xl lg:text-3xl  hover:text-red-500'>I am a Fullstack React and Node JS Developer with UI skill</p>
 
-<p class=' text-lg md:text-2xl lg:text-3xl hover:text-pink-400'>I will now be taking you to my Lounge in 15 secs... </p>
+<p class='  md:text-2xl lg:text-3xl hover:text-pink-400'>I will now be taking you to my Lounge in 15 secs... </p>
 </div>
 
 
 {/* COLUMN 2 */}
 
-<div class="columns-2 text-end font-bold  mt-52">
+<div class="columns-2 col-span-1 md:col-span-1 lg:col-span-1 text-end md:text-end lg:text-end font-bold  mt-32 md:mt-52 lg:52">
 
     <p class='  hover:bg-blue-600 text-white text-8xl '>{count}</p>
 
