@@ -52,7 +52,7 @@ const Home = () =>{
       <img src={'/assets/nodejs.png'} alt='website portfolio 3' class='sm:h-screen sm:w-screen'></img>
       <h1 class=' py-content-end py-5 md:py-5 lg:py-28 sm:space-y-10 ml-auto hover:font-bold'>This is a blog running on backend server</h1>
       <p class='  py-content-end   space-x-12 space-y-4  md:space-x-16 lg:space-x-16 font-bold hover:text-blue-300'>This wesbite was made with Node js, Express js and connected to MongoDB Database.<br/> Hosted on Render.</p>
-       <p class='animate-bounce'>Please wait for few seconds for the website to load after clicking</p>
+       <p class='animate-bounce'>Please wait few seconds after clicking for host to activate</p>
       <Link href='https://node-b46a.onrender.com/blogs ' ><h3 class=' content-around py-10 bg-gradient-to-r from-blue-800 to-gray-900 text-white font-bold rounded-full sm:text-sm md:text-2xl lg:text-3xl hover:text-orange-500'>See Project 2</h3></Link>
       </div>
 
