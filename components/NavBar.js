@@ -5,7 +5,7 @@ import {useRouter} from 'next/router'
 const NavBar = () => {
 
   const router = useRouter()
-  const home = ()=>router.push('/portfolio')
+  const home = ()=>router.push('/')
   const lounge = ()=>router.push('/lounge')
   const tech = ()=>router.push('/about')
   const github = ()=>router.push('https://github.com/eleshinlomo/frontend-react-with-ui')
