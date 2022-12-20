@@ -9,7 +9,7 @@ const Navbar = () => {
     <Link href='/' style={{ textDecoration: 'none' }}><li className='mt-4 hover:text-orange-500 focus:text-yellow-400'>HOME</li></Link>
     <Link href='#'style={{ textDecoration: 'none' }}><li className='hover:text-orange-500'>ABOUT</li></Link>
     <Link href='#'style={{ textDecoration: 'none' }}><li className='hover:text-orange-500'>GET IN TOUCH</li></Link>
-    <Link href='#'style={{ textDecoration: 'none' }}><li className='hover:text-orange-500'>GITHUB</li></Link>
+    <Link href='https://github.com/eleshinlomo/frontend-react-with-ui'style={{ textDecoration: 'none' }}><li className='hover:text-orange-500'>GITHUB</li></Link>
   </ul>
 </nav>
 
