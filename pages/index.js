@@ -11,12 +11,15 @@ import Footer from '../components/Footer'
 
 
 export default function Home() {
+
+
+  
   return (
     
     
 <div className= 'mt-0  sm:text-white  md:text-white lg:text-white justify-center items-center h-screen w-screen text-base '>
 
-
+<div className='bg-black'>
 
 < Header />
 
@@ -32,17 +35,12 @@ export default function Home() {
 
 < Fourcardswithimage />
 
-< Footer />
-
-
-
-
-
 
 
   </main>
+  </div>
 
-  
+  < Footer />
 
   
 </div>
