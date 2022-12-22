@@ -7,9 +7,10 @@ const RandomNumberGenerator = ()=> {
   
   const generateRandomNumbers = () => {
     const randomNumbers = [];
-    for (let i = 0; i < 3; i++) {
-      randomNumbers.push(Math.floor(Math.random()*100));
+    for (let i = 0; i < 5; i++) {
+      randomNumbers.push(Math.floor(Math.random()*70));
     }
+    randomNumbers.push(Math.floor(Math.random()*25))
     setRandomNumbers(randomNumbers);
   };
   
@@ -20,7 +21,7 @@ const RandomNumberGenerator = ()=> {
   return (
     <div>
       <p className='flex justify-center'>Your random numbers are:</p>
-      <ul className='flex space-x-4 justify-center text-4xl font-bold -mt-4'>
+      <ul className='flex space-x-4 justify-center text-2xl font-bold -mt-4'>
         {randomNumbers.map((number, index) => (
           <li key={index} className=''>{number}</li>
         ))}
