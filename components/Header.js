@@ -3,7 +3,7 @@ import React from 'react'
 const Header = () => {
   return (
     
-    <header className='bg-gradient bg-gradient-to-r from-indigo-400 to-indigo-600'>
+    <header className='bg-gradient bg-gradient-to-r from-indigo-400  to-indigo-600'>
 
 
   

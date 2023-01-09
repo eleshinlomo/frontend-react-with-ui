@@ -17,7 +17,12 @@ export default function Home() {
 
   
   return (
-    
+    <div>
+    <Head>
+        <title>My Portfolio</title>
+        <meta name="description" content="My main portfolio" />
+        <link rel="icon" href="/favicon.png" />
+      </Head>
     
 <div className= 'mt-0  sm:text-white  md:text-white lg:text-white justify-center items-center h-screen w-screen text-base '>
 
@@ -33,11 +38,13 @@ export default function Home() {
 
 < Imagedividertwo />
 
+< Projects />
+
 < Fourcards />
 
 < Fourcardswithimage />
 
-< Projects />
+
 
 
 
@@ -49,7 +56,8 @@ export default function Home() {
 
   
 </div>
-     
+
+   </div>  
   
   )
 }
